@@ -1,7 +1,6 @@
 # Netflix Content Strategy Analysis
 
-![Netflix Dashboard](images/netflix_dashboard_overview.png)
-
+![Netflix Dashboard](netflix_dashboard_overview.png)
 ## Overview
 
 This project analyzes 8,807 Netflix titles using Python and Tableau to explore how Netflix's content catalog has evolved over time. The analysis focuses on content type balance, geographic distribution, catalog growth, and genre trends to uncover insights into Netflix's global content strategy.
