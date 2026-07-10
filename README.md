@@ -80,7 +80,7 @@ The complete Python analysis and data exploration can be found here:
 
 [Netflix Analysis Notebook](Netflix_Analysis.ipynb)
 
-## Repository Structure
+
 ## Limitations
 
 - Approximately 9% of titles have missing country information
