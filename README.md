@@ -78,7 +78,7 @@ Interactive Tableau Dashboard:
 
 The complete Python analysis and data exploration can be found here:
 
-[Netflix Analysis Notebook](notebooks/Netflix_Analysis.ipynb)
+[Netflix Analysis Notebook](Netflix_Analysis.ipynb)
 
 ## Repository Structure
 ## Limitations
