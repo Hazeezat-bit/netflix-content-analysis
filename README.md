@@ -1,18 +1,34 @@
-# Netflix Content Strategy Analysis
+# How Netflix Went Global — And What Happened Next
 
 ![Netflix Dashboard](netflix_dashboard_overview.png)
-## Overview
 
-This project analyzes 8,807 Netflix titles using Python and Tableau to explore how Netflix's content catalog has evolved over time. The analysis focuses on content type balance, geographic distribution, catalog growth, and genre trends to uncover insights into Netflix's global content strategy.
+## The Question
 
-## Objectives
+By the mid-2010s, Netflix had a decision to make: keep growing as a primarily American movie service, or become something bigger. Did Netflix's massive catalog growth after 2016 come from doing more of the same — or from becoming a fundamentally different kind of platform?
 
-This analysis aims to answer the following questions:
+I analyzed Netflix's full content catalog (8,807 titles, 2008–2021) to find out.
 
-- What type of content dominates Netflix's catalog, and how has this changed over time?
-- Which countries contribute the most Netflix content?
-- How has Netflix's content volume evolved over time?
-- What genres are most prevalent in the catalog?
+## What I Found
+
+**Netflix didn't just grow. It transformed.**
+
+In 2013, international content made up just 9% of everything Netflix added that year — the platform was overwhelmingly American. By 2018, that number had flipped: international titles made up nearly 70% of new additions. This wasn't gradual drift. It was a deliberate strategic pivot, and India led the charge — its share of new titles (among the top three producing countries) rose from 0% in 2013 to 35% by 2018, while the US's share fell to just over half.
+
+**But the story has a twist.** After 2018, India's specific momentum cooled — its share dropped back down to around 14% by 2021, and the US climbed back up. If you only looked at the India numbers, you'd think the "global bet" reversed.
+
+It didn't. Netflix's *overall* international content share stayed elevated — settling around 62–64% rather than falling back toward 2013 levels. In other words: **India sparked the pivot, but other countries carried it forward.** Netflix's globalization wasn't a single country's story — it became structural.
+
+A few more pieces of the picture:
+
+- **The pivot wasn't evenly spread across genres.** International growth concentrated heavily in "International Movies" and "Dramas" — this was a targeted expansion, not diversification for its own sake.
+- **Content format shifted alongside geography.** International titles skew slightly more toward TV Shows than domestic titles do — the global pivot and Netflix's broader move into TV Shows appear connected, not coincidental.
+- **Growth wasn't just about who — it was about how much.** Total content additions rocketed from a handful of titles per year before 2013 to over 2,000 in 2019 alone, with the international shift as the engine behind that acceleration.
+
+## Why It Matters
+
+This is a case study in how a platform outgrows its home market — not by accident, but by choice. Companies that hit ceiling growth in one market often face this exact decision: double down locally, or make a real bet on new geographies. Netflix's data shows what that bet looked like in practice — including the messy part, where the country that sparked the shift didn't stay the one carrying it. That nuance is the more useful lesson: **a strategic pivot can outlast the specific move that triggered it.**
+
+If I were advising Netflix's content strategy team today, the follow-up question this raises is: which countries picked up the slack after India's contribution cooled — and is that growth as durable, or is Netflix now dependent on other markets in the same fragile way it once was dependent on India?
 
 ## Dataset
 
@@ -46,33 +62,11 @@ The dataset was cleaned and prepared for analysis through the following steps:
 - Removed 17 records with missing critical fields, representing less than 0.2% of the dataset
 - Split multi-genre values from the `listed_in` column to enable genre-level analysis
 
-## Key Insights
-
-### 1. Movies dominate Netflix's catalog, but TV Shows are growing
-
-Movies represent approximately 69.7% of Netflix's catalog. However, their share declined from around 75% in 2018 to approximately 66% in 2021, indicating a gradual shift toward increasing TV Show content.
-
-### 2. The United States and India lead content production
-
-The United States contributes the largest number of titles (3,202), followed by India (1,008) and the United Kingdom (627), highlighting the importance of these markets in Netflix's global catalog.
-
-### 3. Netflix experienced significant catalog growth after 2016
-
-Content additions increased rapidly after 2016, reaching a peak of 2,016 titles added in 2019. The lower volume observed in 2021 is likely influenced by incomplete-year data collection.
-
-### 4. Global content contribution increased significantly
-
-Content from international markets grew substantially, increasing from approximately 9% of additions in 2013 to over 60% from 2016 onward. This highlights Netflix's expansion toward a more globally diverse catalog.
-
-### 5. International Movies and Dramas are the most common genres
-
-"International Movies" (2,752 titles) and "Dramas" (2,426 titles) are the most frequent genres in Netflix's catalog, reflecting the platform's focus on diverse international storytelling.
-
 ## Dashboard
 
-Interactive Tableau Dashboard:
+Interactive Tableau Dashboard — start on the **Summary** tab for the quick take, or explore the full dashboard for the details:
 
-[https://public.tableau.com/app/profile/hazeezat.adebimpe.adebayo/viz/Book1_17836937265950/NetflixContentStrategyAnalysis#1]
+[https://public.tableau.com/app/profile/hazeezat.adebimpe.adebayo/viz/NetflixContentAnalysis_17905361175140/HowNetflixWentGlobal](https://public.tableau.com/app/profile/hazeezat.adebimpe.adebayo/viz/NetflixContentAnalysis_17905361175140/HowNetflixWentGlobal)
 
 ## Analysis Notebook
 
@@ -80,14 +74,14 @@ The complete Python analysis and data exploration can be found here:
 
 [Netflix Analysis Notebook](Netflix_Analysis.ipynb)
 
+## Important Caveat — What This Data Can and Can't Tell Us
 
-## Limitations
+This analysis is based on Netflix's *catalog* — what titles were added and when. It reflects **what Netflix chose to stock, not what audiences chose to watch.**
+
+That distinction matters here specifically. A company can pursue an international content strategy for reasons that have nothing to do with proven audience demand — tax incentives, licensing deals, local market entry commitments. So the finding this data actually supports is: **"Netflix pursued a deliberate, sustained international content strategy."** It does not tell us whether that strategy paid off in viewership or revenue — that would require data this dataset doesn't include.
+
+Other limitations worth noting:
 
 - Approximately 9% of titles have missing country information
 - 2021 data represents a partial-year collection period
 - The dataset represents a historical snapshot and does not reflect real-time Netflix catalog updates
-- No viewership or engagement metrics are included; therefore, analysis reflects content availability rather than performance
-
-## Key Takeaway
-
-Netflix's content catalog has shifted toward greater international expansion and increased TV Show production while maintaining a strong movie foundation. Growth after 2016 was driven largely by global content diversification, demonstrating Netflix's transition from a primarily US-focused platform into a global streaming service.
