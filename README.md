@@ -1,6 +1,6 @@
 # How Netflix Went Global — And What Happened Next
 
-![Netflix Dashboard](netflix_dashboard_overview.png)
+![Netflix Dashboard](netflix dashboard_.png)
 
 ## The Question
 
