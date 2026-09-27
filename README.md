@@ -71,7 +71,7 @@ Interactive Tableau Dashboard — start on the **Summary** tab for the quick tak
 
 The complete Python analysis and data exploration can be found here:
 
-[Netflix Analysis Notebook](Netflix.ipynb)
+[Netflix Analysis Notebook](NETFLIX.ipynb)
 
 ## Important Caveat — What This Data Can and Can't Tell Us
 
