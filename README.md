@@ -1,7 +1,6 @@
 # How Netflix Went Global — And What Happened Next
 
-![Netflix Dashboard](netflix dashboard_.png)
-
+![Netflix Dashboard](netflix%20dashboard.png)
 ## The Question
 
 By the mid-2010s, Netflix had a decision to make: keep growing as a primarily American movie service, or become something bigger. Did Netflix's massive catalog growth after 2016 come from doing more of the same — or from becoming a fundamentally different kind of platform?
